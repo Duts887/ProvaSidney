@@ -1,0 +1,18 @@
+^enteros [a-z][a-z0-9]{0,9};$
+^int [a-z][a-z0-9]{0,9};$
+^cita [a-z][a-z0-9]{0,9};$
+^regresar [a-z][a-z0-9]{0,9};$
+[a-z][a-z0-9]{0,9} = ([a-z][a-z0-9]{0,9}|[0-9]{1,10}) [+,- ,/,*] ([a-z][a-z0-9]{0,9}|[0-9]{1,10});
+por [a-z][a-z0-9]{0,9} en [0-9]{1,10} hacer
+si [a-z][a-z0-9]{0,9} [>,<,=,!] [0-9]{1,10} entonces
+^imprimir \d+$
+^fin$
+^regresar$
+^presionar;$
+^da 0$
+^por$
+^hasta hacer$
+^hasta de para$
+^imprimir "[0-9a-z\s]{1,50}$";
+^aquí "[0-9a-z\s]{1,50}";
+^regresar [0-9]{1,3};$

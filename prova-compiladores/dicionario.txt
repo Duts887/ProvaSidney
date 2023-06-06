@@ -1,0 +1,29 @@
+leer
+presionar
+por
+altura final
+en
+hasta
+hacer
+sí mismo
+sin
+finalizar
+igual a
+aquí
+texto
+real
+lógico
+es correcto
+o
+no
+volver
+colocar
+>=
+<=
+==
+!=
+(
+)
+{
+}
+;

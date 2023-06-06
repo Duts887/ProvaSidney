@@ -1,0 +1,31 @@
+NOTACIÓN EBNF
+<char> = {a..z}*
+--------------
+Declaraciones de Variables
+<char> := a..z
+<var> := <char>0..9
+<tipo> := d | f | s | w
+<op.arit> := + | - | * | /
+<nombro> := 0..9
+<varnum> := <var> | <num>
+entero <var>;
+int <var>;
+leer <var>;
+<var> = <varnum> <op.arit> <varnum>;
+imprimir <var>;
+por <var> de <num> hasta <num> hacer
+finhazta
+si <var> <op.rel> <num> entonces
+fin si
+--------------
+entero x;
+int y;
+entero i;
+scanf("%d", &x);
+y = x * 2;
+por (i = 0; i < y; i++) {
+si (i > 10) {
+printf("%d pasó 10", i);
+}
+}
+return 0;

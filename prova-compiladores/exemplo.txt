@@ -1,0 +1,18 @@
+entero x;
+int y;
+entero i;
+entero a;
+leer x;
+y = x * 2;
+por i de 1 hasta 10 paso
+       si y > 10 entonces
+        imprimir "pasa 10";
+       fin si
+fin altura
+si a > 5 entonces
+    presionar "al";
+fin si
+si a = 3 entonces
+    presionar "al";
+fin si
+volver 0;
